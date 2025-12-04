@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example
+# Install script for directory: C:/tinyUSB_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/esp-idf/cmake_install.cmake")
+  include("C:/tinyUSB_example/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/tinyUSB_example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

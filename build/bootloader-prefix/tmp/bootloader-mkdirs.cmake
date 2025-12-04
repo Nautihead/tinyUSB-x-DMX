@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader"
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix"
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/tmp"
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/src"
-  "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/tinyUSB_example/build/bootloader"
+  "C:/tinyUSB_example/build/bootloader-prefix"
+  "C:/tinyUSB_example/build/bootloader-prefix/tmp"
+  "C:/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/tinyUSB_example/build/bootloader-prefix/src"
+  "C:/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/tinyUSB_example/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

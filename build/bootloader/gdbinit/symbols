@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/bootloader/bootloader.elf
+file C:/tinyUSB_example/build/bootloader/bootloader.elf

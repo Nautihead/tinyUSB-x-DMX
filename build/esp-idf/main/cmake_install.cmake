@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/main
+# Install script for directory: C:/tinyUSB_example/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

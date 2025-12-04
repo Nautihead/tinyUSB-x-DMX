@@ -1,0 +1,8 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Processing 4 dependencies:
+NOTICE: [1/4] espressif/esp_tinyusb (1.7.6~2)
+NOTICE: [2/4] espressif/led_strip (3.0.2)
+NOTICE: [3/4] espressif/tinyusb (0.19.0~2)
+NOTICE: [4/4] idf (5.4.1)
+-- Configuring incomplete, errors occurred!

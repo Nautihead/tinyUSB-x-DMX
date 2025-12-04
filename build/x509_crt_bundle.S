@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/tinyUSB_example/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

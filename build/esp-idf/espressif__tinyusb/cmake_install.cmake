@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jorda/Desktop/Lessen/IntraDic/usbdmxTest1/tUSB/tinyUSB_example/managed_components/espressif__tinyusb
+# Install script for directory: C:/tinyUSB_example/managed_components/espressif__tinyusb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

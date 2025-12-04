@@ -5,6 +5,18 @@
 #include <stdint.h>
 #include <string.h>
 #include "rom/ets_sys.h"
+#include "driver/usb_serial_jtag.h"
+#include "esp_log.h"
+
+static const char *TAG = "DMXI";
+#define BUF_SIZE (1024)
+#define STACK_SIZE (4096)
+
+QueueHandle_t usb_queue = NULL;
+QueueHandle_t dataCap_queue = NULL;
+
+uint8_t STARTBYTES[3] = {0x00, 0xFF, 0x00} ;// DMX start bytes
+uint8_t STOPBYTES[3] = {0xFF, 0x00, 0x00}; // DMX stop bytes
 
 
 void dmx_Init(void)
@@ -21,6 +33,8 @@ void dmx_Init(void)
         
     
     };
+
+    
     
     gpio_reset_pin(DMX_UART_TX_PIN);
     gpio_set_direction(DMX_UART_TX_PIN, GPIO_MODE_OUTPUT);
@@ -54,29 +68,127 @@ void dmx_Write(uint8_t* data)
 }
 
 
-int dmx_Read(uint8_t *data) // moet nog bijgewerkt worden voor de interface
+void dmx_Read(void *arg) // moet nog bijgewerkt worden voor de interface
 {
-    //
+     usb_rx_message_t sendData;
 
-    return uart_read_bytes(DMX_UART_PORT_NUM1, data, DMX_UART_BUF_SIZE, 100 / portTICK_PERIOD_MS);
-   
+    usb_serial_jtag_driver_config_t usb_serial_jtag_config = {
+        .rx_buffer_size = BUF_SIZE,
+        .tx_buffer_size = BUF_SIZE,
+    };
 
-    
+    ESP_ERROR_CHECK(usb_serial_jtag_driver_install(&usb_serial_jtag_config));
+    ESP_LOGI("usb_serial_jtag echo", "USB_SERIAL_JTAG init done");
+
+    // Configure a temporary buffer for the incoming data
+    uint8_t *data = (uint8_t *) malloc(BUF_SIZE);
+    if (data == NULL) {
+        ESP_LOGE("usb_serial_jtag echo", "no memory for data");
+        return;
+    }
+
+    while (1) {
+
+        int len = usb_serial_jtag_read_bytes(data, (BUF_SIZE - 1), 20 / portTICK_PERIOD_MS);
+
+        // Write data back to the USB SERIAL JTAG
+
+        if (len) {
+            usb_serial_jtag_write_bytes((const char *) data, len, 20 / portTICK_PERIOD_MS);
+            sendData.buf_len = len;
+            memcpy(sendData.buf, data, len);
+
+            xQueueSend(usb_queue, &sendData, 0);
+            ESP_LOGI("usb_serial_jtag echo", "Read %d bytes", len);
+        }
+    }
 }
 
+void tUSB_DMXI_parser(void *arg) {
+    usb_rx_message_t msg_in;
+    data_cap_message_t msg_out;
+    ESP_LOGI(TAG, "Entered parser task");
+  
+    while (1) {
+        if (xQueueReceive(usb_queue, &msg_in, portMAX_DELAY)) {
 
+             if (msg_in.buf_len) {
+            ESP_LOGI(TAG, "data ontvangen");
+            ESP_LOG_BUFFER_HEXDUMP(TAG, msg_in.buf, msg_in.buf_len, ESP_LOG_INFO);
+            printf("Data : %d", msg_in.buf);
+
+            bool start_found = true;
+          
+
+            for (int i = 0; i < 3; i++) {
+                if (msg_in.buf[i] != STARTBYTES[i]) {
+                    start_found = false;
+
+                    break;
+                }
+            }
+            for (int i = 3; i <= 514; i++) {
+                msg_out.dBuf[i-2] = msg_in.buf[i];               // omdat de eerste bytes start bytes zijn
+                ESP_LOGI(TAG, "received data byte %d", i);
+            }
+
+            
+
+            if (start_found) {
+                ESP_LOGI(TAG, "DMX start sequence detected");
+                msg_out.dBuf_len = msg_in.buf_len;
+               
+                xQueueSend(dataCap_queue, &msg_out, 0);
+                
+            }
+        }
+            
+                
+        }
+        ESP_LOGI(TAG, "parser running");
+        vTaskDelay(500);
+    }
+}
+
+void tUSB_DMXI_sender(void *arg) {
+
+    data_cap_message_t msg_in;
+     
+    ESP_LOGI(TAG, "Entered sender task");
+
+    while(1)
+    { if (xQueueReceive(dataCap_queue, &msg_in, portMAX_DELAY)) {
+
+            // Stuur data via DMX
+            dmx_Write(msg_in.dBuf);
+
+            ESP_LOGI(TAG, "Data sent via DMX, length: %d", msg_in.dBuf_len);
+
+            for (int i = 0; i < msg_in.dBuf_len; i++) {                 //  Debugging
+                ESP_LOGI(TAG, "Sent byte %d: %d", i, msg_in.dBuf[i]);
+            }
+        }
+
+    
+    ESP_LOGI(TAG, "sender running");
+    vTaskDelay(500);}}
+
+
+
+
+/*
 void dmx_Task(void *arg) // dit is een test functie, deze staat in de task in de main file
 {
     uint8_t msg[512];
     while (1) {
-        if (dmx_Read(msg)>0)
+        if (dmx_Read()>0)
         {
             dmx_Write(msg);
         }
     }
    vTaskDelete(NULL);
 }
-
+*/
 
 void dmx_Test(void *arg) // dit is een test functie, deze staat in de task in de main file
 {

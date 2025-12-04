@@ -1,0 +1,12 @@
+CMake Error at C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/build.cmake:318 (message):
+  Failed to resolve component 'usb_serial_jtag' required by component 'DMXI':
+  unknown name.
+Call Stack (most recent call first):
+  C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/build.cmake:361 (__build_resolve_and_add_req)
+  C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/build.cmake:362 (__build_expand_requirements)
+  C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/build.cmake:362 (__build_expand_requirements)
+  C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/build.cmake:665 (__build_expand_requirements)
+  C:/Users/jorda/esp/v5.4.1/esp-idf/tools/cmake/project.cmake:717 (idf_build_process)
+  CMakeLists.txt:9 (project)
+
+
