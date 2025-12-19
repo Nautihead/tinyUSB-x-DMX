@@ -1,61 +1,61 @@
 {
     "version":            "1.2",
     "project_name":       "tinyUSB_example",
-    "project_version":    "da4dcde-dirty",
-    "project_path":       "C:/tinyUSB_example",
+    "project_version":    "089e36e-dirty",
+    "project_path":       "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test",
     "idf_path":           "C:/Users/jorda/esp/v5.4.1/esp-idf",
-    "build_dir":          "C:/tinyUSB_example/build",
-    "config_file":        "C:/tinyUSB_example/sdkconfig",
-    "config_defaults":    "C:/tinyUSB_example/sdkconfig.defaults",
-    "bootloader_elf":     "C:/tinyUSB_example/build/bootloader/bootloader.elf",
+    "build_dir":          "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build",
+    "config_file":        "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/sdkconfig",
+    "config_defaults":    "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/sdkconfig.defaults",
+    "bootloader_elf":     "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/bootloader/bootloader.elf",
     "app_elf":            "tinyUSB_example.elf",
     "app_bin":            "tinyUSB_example.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.4.1",
-    "target":             "esp32s3",
+    "target":             "esp32c6",
     "rev":                "",
     "min_rev":            "0",
     "max_rev":            "99",
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
-    "monitor_toolprefix": "xtensa-esp32s3-elf-",
-    "c_compiler":         "C:/Users/jorda/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "c_compiler":         "C:/Users/jorda/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_common/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_dac/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ledc/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_pcnt/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_ringbuf/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/Kconfig;C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/Kconfig",
+        "COMPONENT_KCONFIGS" : "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_common/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ana_cmpr/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_dac/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ledc/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_pcnt/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_ringbuf/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/Kconfig;C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/jorda/esp/v5.4.1/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/jorda/esp/v5.4.1/esp-idf/components/partition_table/Kconfig.projbuild"
     },
-    "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "DMXI", "WIFI_DMXI", "app_update", "bootloader", "bootloader_support", "cxx", "driver", "efuse", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_http_server", "esp_hw_support", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espressif__esp_tinyusb", "espressif__led_strip", "espressif__tinyusb", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "log", "lwip", "main", "mbedtls", "newlib", "nvs_flash", "partition_table", "pthread", "sdmmc", "soc", "spi_flash", "tUSB_DMXI", "usb", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "C:/tinyUSB_example/components/DMXI", "C:/tinyUSB_example/components/WIFI_DMXI", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/app_update", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/cxx", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_app_format", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_bootloader_format", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_common", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_dac", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ledc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_pcnt", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdmmc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdspi", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif_stack", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_ringbuf", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_vfs_console", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb", "C:/tinyUSB_example/managed_components/espressif__led_strip", "C:/tinyUSB_example/managed_components/espressif__tinyusb", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esptool_py", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/http_parser", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip", "C:/tinyUSB_example/main", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/partition_table", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash", "C:/tinyUSB_example/components/tUSB_DMXI", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa", "" ],
+    "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "riscv" ],
+    "build_components" : [ "DMXI", "WIFI_DMXI", "app_update", "bootloader", "bootloader_support", "cxx", "driver", "efuse", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_http_server", "esp_hw_support", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "esptool_py", "freertos", "hal", "heap", "http_parser", "log", "lwip", "main", "mbedtls", "newlib", "nvs_flash", "partition_table", "pthread", "riscv", "sdmmc", "soc", "spi_flash", "vfs", "wpa_supplicant", "" ],
+    "build_component_paths" : [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/DMXI", "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/WIFI_DMXI", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/app_update", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/cxx", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_app_format", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_bootloader_format", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_common", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_dac", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ledc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_pcnt", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdio", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdmmc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdspi", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif_stack", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_ringbuf", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_vfs_console", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esptool_py", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/http_parser", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip", "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/main", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/partition_table", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant", "" ],
     "build_component_info" : {
         "DMXI": {
             "alias": "idf::DMXI",
             "target": "___idf_DMXI",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/DMXI",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/DMXI",
             "type": "LIBRARY",
             "lib": "__idf_DMXI",
             "reqs": [ "driver" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/DMXI/libDMXI.a",
-            "sources": [ "C:/tinyUSB_example/components/DMXI/DMXI.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/DMXI/libDMXI.a",
+            "sources": [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/DMXI/DMXI.c" ],
             "include_dirs": [ "." ]
         },
         "WIFI_DMXI": {
             "alias": "idf::WIFI_DMXI",
             "target": "___idf_WIFI_DMXI",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/WIFI_DMXI",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/WIFI_DMXI",
             "type": "LIBRARY",
             "lib": "__idf_WIFI_DMXI",
-            "reqs": [ "esp_wifi", "esp_event", "nvs_flash", "esp_system", "esp_http_server" ],
+            "reqs": [ "esp_wifi", "esp_event", "nvs_flash", "esp_system", "esp_http_server", "DMXI" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/WIFI_DMXI/libWIFI_DMXI.a",
-            "sources": [ "C:/tinyUSB_example/components/WIFI_DMXI/WIFI_DMXI.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/WIFI_DMXI/libWIFI_DMXI.a",
+            "sources": [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/WIFI_DMXI/WIFI_DMXI.c" ],
             "include_dirs": [ "." ]
         },
         "app_update": {
@@ -69,7 +69,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/app_update/libapp_update.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/app_update/esp_ota_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -99,8 +99,8 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/bootloader_support/libbootloader_support.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_mem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_random.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/flash_encrypt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/secure_boot.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/flash_partitions.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/esp_image_format.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/idf/bootloader_sha.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_mem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_random.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/flash_encrypt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/secure_boot.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_random_esp32c6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32c6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/bootloader_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/flash_partitions.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/esp_image_format.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/idf/bootloader_sha.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/bootloader_support/src/esp32c6/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
         "cxx": {
@@ -114,7 +114,7 @@
             "priv_reqs": [ "pthread", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/cxx/libcxx.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/cxx/libcxx.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/cxx/cxx_exception_stubs.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/cxx/cxx_guards.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -129,9 +129,9 @@
             "priv_reqs": [ "efuse", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/driver/libdriver.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/adc_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/timer_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/i2c/i2c.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/i2s_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/mcpwm_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/pcnt_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/rmt_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/rtc_temperature_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/twai/twai.c" ],
-            "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/driver/libdriver.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/adc_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/timer_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/i2c/i2c.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/i2s_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/mcpwm_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/pcnt_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/rmt_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/deprecated/rtc_temperature_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/driver/twai/twai.c" ],
+            "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include" ]
         },
         "efuse": {
             "alias": "idf::efuse",
@@ -144,9 +144,9 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/efuse/libefuse.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_api.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_fields.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/efuse/libefuse.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32c6/esp_efuse_table.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32c6/esp_efuse_fields.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32c6/esp_efuse_rtc_calib.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/esp32c6/esp_efuse_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_api.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_fields.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_utility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
+            "include_dirs": [ "include", "esp32c6/include" ]
         },
         "esp_app_format": {
             "alias": "idf::esp_app_format",
@@ -159,7 +159,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -189,8 +189,8 @@
             "priv_reqs": [ "esp_timer", "driver", "esp_event" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_coex/libesp_coex.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/src/coexist_debug.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_coex/libesp_coex.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/esp32c6/esp_coex_adapter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_common": {
@@ -204,7 +204,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_common/libesp_common.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,8 +249,8 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_flex_glitch_filter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio_etm.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_gptimer": {
@@ -264,8 +264,8 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_gptimer/src/gptimer_etm.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_i2c": {
@@ -279,7 +279,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c/i2c_master.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c/i2c_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,8 +294,8 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_std.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_tdm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_std.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_tdm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_etm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_ledc": {
@@ -309,7 +309,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_ledc/src/ledc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,8 +324,8 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_mcpwm/src/mcpwm_etm.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_parlio": {
@@ -333,14 +333,14 @@
             "target": "___idf_esp_driver_parlio",
             "prefix": "idf",
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_esp_driver_parlio",
             "reqs": [],
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_parlio/libesp_driver_parlio.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio/src/parlio_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio/src/parlio_tx.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_parlio/src/parlio_rx.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_pcnt": {
@@ -354,7 +354,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c" ],
             "include_dirs": [ "include" ]
         },
@@ -369,7 +369,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
             "include_dirs": [ "include" ]
         },
@@ -378,14 +378,14 @@
             "target": "___idf_esp_driver_sdio",
             "prefix": "idf",
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdio",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_esp_driver_sdio",
             "reqs": [],
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdio/src/sdio_slave.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_sdm": {
@@ -399,7 +399,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdm/src/sdm.c" ],
             "include_dirs": [ "include" ]
         },
@@ -408,14 +408,14 @@
             "target": "___idf_esp_driver_sdmmc",
             "prefix": "idf",
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdmmc",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_driver_sdmmc",
             "reqs": [ "sdmmc", "esp_driver_gpio" ],
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c" ],
+            "file": "",
+            "sources": [],
             "include_dirs": [ "include" ]
         },
         "esp_driver_sdspi": {
@@ -429,7 +429,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdspi/src/sdspi_crc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdspi/src/sdspi_host.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_sdspi/src/sdspi_transaction.c" ],
             "include_dirs": [ "include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_dma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave_hd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -459,8 +459,8 @@
             "priv_reqs": [ "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens/src/temperature_sensor.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens/src/temperature_sensor.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_tsens/src/temperature_sensor_etm.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_driver_uart": {
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart/src/uart.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +489,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_event/libesp_event.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event/default_event_loop.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event/esp_event.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -519,7 +519,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_main.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_parse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_sess.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_txrx.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_uri.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/httpd_ws.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -531,12 +531,12 @@
             "type": "LIBRARY",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "soc" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "hal", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_hw_support/libesp_hw_support.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/cpu.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_memory_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/hw_random.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/mac_addr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/periph_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/revision.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/rtc_module.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_modem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_modes.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_console.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_usb.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_event.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma_link.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/clk_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/deprecated/gdma_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/async_memcpy_gdma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/mspi_timing_tuning.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/mspi_timing_by_mspi_delay.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_clock_output.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/mspi_timing_config.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/lowpower/port/esp32s3/sleep_cpu.c" ],
-            "include_dirs": [ "include", "include/soc", "include/soc/esp32s3", "dma/include", "ldo/include", "debug_probe/include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/cpu.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/esp_cpu_intr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_memory_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/cpu_region_protect.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/hw_random.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/mac_addr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/periph_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/revision.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/rtc_module.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_modem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_modes.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_console.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_usb.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_event.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/io_mux.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/esp_clk_tree.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma_link.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/clk_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_retention.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_system_peripheral.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/deprecated/gdma_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma_sleep_retention.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/gdma_etm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/dma/async_memcpy_gdma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/systimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_etm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/pau_regdma.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/regdma_link.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/modem_clock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/mspi_timing_tuning.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/esp_clock_output.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/rtc_clk_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/rtc_clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/pmu_param.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/pmu_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/pmu_sleep.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/rtc_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/chip_info.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/ocode_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/port/esp32c6/sar_periph_ctrl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/lowpower/port/esp32c6/sleep_cpu.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/lowpower/port/esp32c6/sleep_cpu_asm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/lowpower/port/esp32c6/sleep_clock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support/lowpower/port/esp32c6/sleep_modem_state.c" ],
+            "include_dirs": [ "include", "include/soc", "include/soc/esp32c6", "dma/include", "ldo/include", "debug_probe/include" ]
         },
         "esp_mm": {
             "alias": "idf::esp_mm",
@@ -549,8 +549,8 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_mm/libesp_mm.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/esp_mmu_map.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/esp_cache.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/heap_align_hw.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_mm/libesp_mm.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/esp_mmu_map.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/port/esp32c6/ext_mem_layout.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/esp_cache.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_netif": {
@@ -564,7 +564,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/esp_netif_handlers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/esp_netif_objects.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/esp_netif_defaults.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition/partition.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -609,9 +609,9 @@
             "priv_reqs": [ "nvs_flash", "driver", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_phy/libesp_phy.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_override.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/lib_printf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/esp32s3/phy_init_data.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/btbb_init.c" ],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_phy/libesp_phy.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_override.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/lib_printf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/phy_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/esp32c6/phy_init_data.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_phy/src/btbb_init.c" ],
+            "include_dirs": [ "include", "esp32c6/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -624,7 +624,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm/pm_locks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm/pm_trace.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -654,9 +654,9 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_rom/libesp_rom.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_print.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
-            "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_rom/libesp_rom.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_print.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_hp_regi2c_esp32c6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_tlsf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_multi_heap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_rom/patches/esp_rom_wdt.c" ],
+            "include_dirs": [ "include", "esp32c6/include", "esp32c6/include/esp32c6", "esp32c6" ]
         },
         "esp_security": {
             "alias": "idf::esp_security",
@@ -669,8 +669,8 @@
             "priv_reqs": [ "efuse", "esp_hw_support", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_security/libesp_security.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_hmac.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_ds.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_crypto_lock.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_security/libesp_security.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_hmac.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_ds.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_dpa_protection.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_security/src/esp_crypto_lock.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_system": {
@@ -684,8 +684,8 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "bootloader_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_system/libesp_system.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_err.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/crosscore_int.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_ipc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/freertos_hooks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/int_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/panic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_system.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/startup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/startup_funcs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/system_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/stack_check.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/ubsan.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/xt_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/panic_handler.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/image_process.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/brownout.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_ipc_isr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_system/libesp_system.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_err.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/crosscore_int.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_ipc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/freertos_hooks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/int_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/panic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/esp_system.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/startup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/startup_funcs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/system_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/stack_check.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/ubsan.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/xt_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/systick_etm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/hw_stack_guard.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/panic_handler.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/image_process.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/brownout.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/riscv/expression_with_stack.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/riscv/panic_arch.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/riscv/debug_helpers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/arch/riscv/debug_stubs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32c6/clk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32c6/reset_reason.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32c6/system_internal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32c6/cache_err_int.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_timer": {
@@ -699,8 +699,8 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_timer/libesp_timer.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/system_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_timer/libesp_timer.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/system_time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_timer/src/esp_timer_etm.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_vfs_console": {
@@ -714,7 +714,7 @@
             "priv_reqs": [ "vfs", "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_vfs_console/vfs_console.c" ],
             "include_dirs": [ "include" ]
         },
@@ -729,54 +729,9 @@
             "priv_reqs": [ "driver", "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/esp_wifi/libesp_wifi.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/lib_printf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/mesh_event.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/smartconfig.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_default.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_netif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/lib_printf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/mesh_event.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/smartconfig.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_default.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_netif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/esp32c6/esp_adapter.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
-        },
-        "espressif__esp_tinyusb": {
-            "alias": "idf::espressif__esp_tinyusb",
-            "target": "___idf_espressif__esp_tinyusb",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb",
-            "type": "LIBRARY",
-            "lib": "__idf_espressif__esp_tinyusb",
-            "reqs": [ "fatfs", "vfs", "espressif__tinyusb" ],
-            "priv_reqs": [ "usb" ],
-            "managed_reqs": [ "espressif__tinyusb" ],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/espressif__esp_tinyusb/libespressif__esp_tinyusb.a",
-            "sources": [ "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/descriptors_control.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/tinyusb.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/usb_descriptors.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/tusb_tasks.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/cdc.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/tusb_cdc_acm.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/tusb_console.c", "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb/vfs_tinyusb.c" ],
-            "include_dirs": [ "include" ]
-        },
-        "espressif__led_strip": {
-            "alias": "idf::espressif__led_strip",
-            "target": "___idf_espressif__led_strip",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__led_strip",
-            "type": "LIBRARY",
-            "lib": "__idf_espressif__led_strip",
-            "reqs": [ "esp_driver_rmt", "esp_driver_spi" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/espressif__led_strip/libespressif__led_strip.a",
-            "sources": [ "C:/tinyUSB_example/managed_components/espressif__led_strip/src/led_strip_api.c", "C:/tinyUSB_example/managed_components/espressif__led_strip/src/led_strip_rmt_dev.c", "C:/tinyUSB_example/managed_components/espressif__led_strip/src/led_strip_rmt_encoder.c", "C:/tinyUSB_example/managed_components/espressif__led_strip/src/led_strip_spi_dev.c" ],
-            "include_dirs": [ "include", "interface" ]
-        },
-        "espressif__tinyusb": {
-            "alias": "idf::espressif__tinyusb",
-            "target": "___idf_espressif__tinyusb",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__tinyusb",
-            "type": "LIBRARY",
-            "lib": "__idf_espressif__tinyusb",
-            "reqs": [],
-            "priv_reqs": [ "esp_netif" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/espressif__tinyusb/libespressif__tinyusb.a",
-            "sources": [ "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/cdc/cdc_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/hid/hid_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/midi/midi_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/msc/msc_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/vendor/vendor_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/audio/audio_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/video/video_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/bth/bth_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/usbtmc/usbtmc_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/net/ecm_rndis_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/lib/networking/rndis_reports.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/net/ncm_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/dfu/dfu_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/class/dfu/dfu_rt_device.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/portable/synopsys/dwc2/dcd_dwc2.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/portable/synopsys/dwc2/dwc2_common.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/common/tusb_fifo.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/device/usbd_control.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/device/usbd.c", "C:/tinyUSB_example/managed_components/espressif__tinyusb/src/tusb.c" ],
-            "include_dirs": [ "src/", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/" ]
         },
         "esptool_py": {
             "alias": "idf::esptool_py",
@@ -793,21 +748,6 @@
             "sources": [],
             "include_dirs": []
         },
-        "fatfs": {
-            "alias": "idf::fatfs",
-            "target": "___idf_fatfs",
-            "prefix": "idf",
-            "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs",
-            "type": "LIBRARY",
-            "lib": "__idf_fatfs",
-            "reqs": [ "wear_levelling", "sdmmc", "esp_driver_sdmmc", "esp_driver_sdspi" ],
-            "priv_reqs": [ "vfs", "esp_driver_gpio" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/fatfs/libfatfs.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/diskio/diskio.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/diskio/diskio_rawflash.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/diskio/diskio_wl.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/src/ff.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/src/ffunicode.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/port/freertos/ffsystem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/diskio/diskio_sdmmc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/vfs/vfs_fat.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c" ],
-            "include_dirs": [ "diskio", "src", "vfs" ]
-        },
         "freertos": {
             "alias": "idf::freertos",
             "target": "___idf_freertos",
@@ -819,9 +759,9 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/freertos/libfreertos.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/heap_idf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/app_startup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/port_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/port_systick.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/freertos_compatibility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
-            "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/freertos/libfreertos.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/heap_idf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/app_startup.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/port_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/port_systick.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/portasm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/freertos_compatibility.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
+            "include_dirs": [ "config/include", "config/include/freertos", "config/riscv/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/riscv/include", "FreeRTOS-Kernel/portable/riscv/include/freertos", "esp_additions/include" ]
         },
         "hal": {
             "alias": "idf::hal",
@@ -834,9 +774,9 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/hal/libhal.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/hal_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mpu_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/efuse_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32s3/efuse_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mmu_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/cache_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/color_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32s3/clk_tree_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/systimer_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/uart_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/uart_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gpio_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/rtc_io_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/timer_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ledc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ledc_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2c_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2c_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/rmt_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/pcnt_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mcpwm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/twai_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/twai_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gdma_hal_top.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gdma_hal_ahb_v1.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2s_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sdm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sdmmc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_hal_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_oneshot_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/lcd_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mpi_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sha_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/aes_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/brownout_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hd_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal_gpspi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/hmac_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ds_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/usb_serial_jtag_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/usb_dwc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/usb_wrap_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32s3/touch_sensor_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/touch_sensor_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/xt_wdt_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32s3/rtc_cntl_hal.c" ],
-            "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/hal/libhal.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/hal_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/efuse_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32c6/efuse_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/lp_timer_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mmu_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/cache_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/color_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32c6/clk_tree_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/uart_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/uart_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gpio_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/rtc_io_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/timer_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ledc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ledc_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2c_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2c_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/rmt_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/pcnt_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mcpwm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/twai_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/twai_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gdma_hal_top.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/gdma_hal_ahb_v1.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/i2s_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sdm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/etm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/parlio_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_hal_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_oneshot_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/adc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ecc_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/mpi_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sha_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/aes_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32c6/modem_clock_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32c6/pau_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/brownout_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hal_iram.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_slave_hd_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/spi_flash_hal_gpspi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/sdio_slave_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/esp32c6/pmu_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/apm_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/hmac_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/ds_hal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/hal/usb_serial_jtag_hal.c" ],
+            "include_dirs": [ "platform_port/include", "esp32c6/include", "include" ]
         },
         "heap": {
             "alias": "idf::heap",
@@ -849,8 +789,8 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/heap/libheap.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps_base.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/multi_heap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/tlsf/tlsf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/port/memory_layout_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/heap/libheap.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps_base.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/heap_caps_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/multi_heap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/port/memory_layout_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/heap/port/esp32c6/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
         "http_parser": {
@@ -864,7 +804,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -879,7 +819,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/log/liblog.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/log/liblog.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/os/log_timestamp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/log_timestamp_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/os/log_lock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/os/log_write.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/buffer/log_buffers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/util.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/log_level/log_level.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -894,7 +834,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/lwip/liblwip.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/lwip/liblwip.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/apps/sntp/sntp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/api_lib.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/api_msg.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/err.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/if_api.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/netbuf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/netdb.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/netifapi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/sockets.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/api/tcpip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/def.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/dns.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/mem.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/memp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/netif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/pbuf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/raw.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/stats.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/sys.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/tcp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/timeouts.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/udp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/slipif.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/debug/lwip_debug.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/sockets_ext.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/freertos/sys_arch.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/acd_dhcp_check.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/apps/ping/esp_ping.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/apps/ping/ping.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/apps/ping/ping_sock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -902,15 +842,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/main",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [ "tUSB_DMXI", "DMXI", "esp_wifi", "WIFI_DMXI" ],
-            "priv_reqs": [ "espressif__esp_tinyusb", "espressif__led_strip", "espressif__tinyusb" ],
+            "reqs": [ "DMXI", "esp_wifi", "WIFI_DMXI" ],
+            "priv_reqs": [],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp_tinyusb", "espressif__led_strip", "espressif__tinyusb" ],
-            "file": "C:/tinyUSB_example/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/tinyUSB_example/main/main.c" ],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/main/libmain.a",
+            "sources": [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -924,8 +864,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/tinyUSB_example/build/x509_crt_bundle.S" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "newlib": {
@@ -939,7 +879,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/newlib/libnewlib.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/abort.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/assert.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/heap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/flockfile.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/locks.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/poll.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/pthread.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/random.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/getentropy.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/reent_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/newlib_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/syscalls.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/termios.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/stdatomic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/time.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/sysconf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/realpath.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/scandir.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/newlib/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -954,7 +894,7 @@
             "priv_reqs": [ "spi_flash", "newlib" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_api.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_page.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_types.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -984,8 +924,23 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/pthread/libpthread.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/pthread/libpthread.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/pthread.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/pthread_cond_var.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/pthread_local_storage.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/pthread_rwlock.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/pthread/pthread_semaphore.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "riscv": {
+            "alias": "idf::riscv",
+            "target": "___idf_riscv",
+            "prefix": "idf",
+            "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv",
+            "type": "LIBRARY",
+            "lib": "__idf_riscv",
+            "reqs": [],
+            "priv_reqs": [ "soc" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/riscv/libriscv.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv/instruction_decode.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv/interrupt.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv/vectors.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv/interrupt_plic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv/vectors_intc.S" ],
             "include_dirs": [ "include" ]
         },
         "sdmmc": {
@@ -999,7 +954,7 @@
             "priv_reqs": [ "soc", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_cmd.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_io.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_mmc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sdmmc_sd.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1014,9 +969,9 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/soc/libsoc.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/lldesc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/dport_access_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/interrupts.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/gpio_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/uart_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/adc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/gdma_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/spi_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/ledc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/pcnt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/rmt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/sdm_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/i2s_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/i2c_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/timer_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/lcd_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/mcpwm_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/mpi_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/sdmmc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/touch_sensor_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/twai_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/wdt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/usb_dwc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32s3/rtc_io_periph.c" ],
-            "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/soc/libsoc.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/lldesc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/dport_access_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/interrupts.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/gpio_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/uart_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/adc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/dedic_gpio_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/etm_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/gdma_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/spi_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/ledc_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/pcnt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/rmt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/sdm_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/i2s_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/i2c_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/temperature_sensor_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/timer_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/parlio_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/mcpwm_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/mpi_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/twai_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/wdt_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/ieee802154_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/rtc_io_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/sdio_slave_periph.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/soc/esp32c6/system_retention_periph.c" ],
+            "include_dirs": [ "include", "esp32c6", "esp32c6/include", "esp32c6/register" ]
         },
         "spi_flash": {
             "alias": "idf::spi_flash",
@@ -1029,38 +984,8 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/spi_flash/libspi_flash.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_brownout_hook.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_th.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/memspi_host_driver.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/cache_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_mmap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_wrap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/esp_flash_api.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/esp_flash_spi_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
-            "include_dirs": [ "include" ]
-        },
-        "tUSB_DMXI": {
-            "alias": "idf::tUSB_DMXI",
-            "target": "___idf_tUSB_DMXI",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/tUSB_DMXI",
-            "type": "LIBRARY",
-            "lib": "__idf_tUSB_DMXI",
-            "reqs": [ "espressif__esp_tinyusb", "espressif__tinyusb", "DMXI" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/tUSB_DMXI/libtUSB_DMXI.a",
-            "sources": [ "C:/tinyUSB_example/components/tUSB_DMXI/tUSB_DMXI.c" ],
-            "include_dirs": [ "." ]
-        },
-        "usb": {
-            "alias": "idf::usb",
-            "target": "___idf_usb",
-            "prefix": "idf",
-            "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb",
-            "type": "LIBRARY",
-            "lib": "__idf_usb",
-            "reqs": [],
-            "priv_reqs": [ "esp_driver_gpio", "esp_mm" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/usb/libusb.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/hcd_dwc.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/enum.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/hub.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/usb_helpers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/usb_host.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/usb_private.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/usbh.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/usb/usb_phy.c" ],
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/spi_flash/libspi_flash.a",
+            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_brownout_hook.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_chip_th.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/memspi_host_driver.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/cache_utils.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_mmap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/flash_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_wrap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/esp_flash_api.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/esp_flash_spi_init.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
         "vfs": {
@@ -1074,23 +999,8 @@
             "priv_reqs": [ "esp_timer", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_vfs_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/vfs/libvfs.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/vfs/libvfs.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/vfs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/vfs_eventfd.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/vfs_semihost.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/vfs/nullfs.c" ],
-            "include_dirs": [ "include" ]
-        },
-        "wear_levelling": {
-            "alias": "idf::wear_levelling",
-            "target": "___idf_wear_levelling",
-            "prefix": "idf",
-            "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling",
-            "type": "LIBRARY",
-            "lib": "__idf_wear_levelling",
-            "reqs": [ "esp_partition" ],
-            "priv_reqs": [ "spi_flash" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/wear_levelling/libwear_levelling.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/Partition.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/SPI_Flash.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/WL_Flash.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/crc32.cpp", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wear_levelling/wear_levelling.cpp" ],
             "include_dirs": [ "include" ]
         },
         "wpa_supplicant": {
@@ -1104,24 +1014,9 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/port/eloop.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/common/sae.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/base64.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/utils/json.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
-        },
-        "xtensa": {
-            "alias": "idf::xtensa",
-            "target": "___idf_xtensa",
-            "prefix": "idf",
-            "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa",
-            "type": "LIBRARY",
-            "lib": "__idf_xtensa",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/tinyUSB_example/build/esp-idf/xtensa/libxtensa.a",
-            "sources": [ "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/eri.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/xt_trax.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/xtensa_context.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/xtensa_intr_asm.S", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/xtensa_intr.c", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S" ],
-            "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
         }
     },
     "all_component_info" : {
@@ -1207,7 +1102,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/tinyUSB_example/build" ]
+            "include_dirs": [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build" ]
         },
         "cxx": {
             "alias": "idf::cxx",
@@ -1231,7 +1126,7 @@
             "priv_reqs": [ "efuse", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
+            "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include" ]
         },
         "efuse": {
             "alias": "idf::efuse",
@@ -1243,7 +1138,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32c6/include" ]
         },
         "esp-tls": {
             "alias": "idf::esp-tls",
@@ -1255,7 +1150,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/tinyUSB_example/build", "esp-tls-crypto" ]
+            "include_dirs": [ "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build", "esp-tls-crypto" ]
         },
         "esp_adc": {
             "alias": "idf::esp_adc",
@@ -1267,7 +1162,7 @@
             "priv_reqs": [ "driver", "esp_driver_gpio", "efuse", "esp_pm", "esp_ringbuf", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "interface", "esp32s3/include", "deprecated/include" ]
+            "include_dirs": [ "include", "interface", "esp32c6/include", "deprecated/include" ]
         },
         "esp_app_format": {
             "alias": "idf::esp_app_format",
@@ -1708,10 +1603,10 @@
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/esp_hw_support",
             "lib": "__idf_esp_hw_support",
             "reqs": [ "soc" ],
-            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
+            "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "hal", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "include/soc", "include/soc/esp32s3", "dma/include", "ldo/include", "debug_probe/include" ]
+            "include_dirs": [ "include", "include/soc", "include/soc/esp32c6", "dma/include", "ldo/include", "debug_probe/include" ]
         },
         "esp_lcd": {
             "alias": "idf::esp_lcd",
@@ -1795,7 +1690,7 @@
             "priv_reqs": [ "nvs_flash", "driver", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
+            "include_dirs": [ "include", "esp32c6/include" ]
         },
         "esp_pm": {
             "alias": "idf::esp_pm",
@@ -1843,7 +1738,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
+            "include_dirs": [ "include", "esp32c6/include", "esp32c6/include/esp32c6", "esp32c6" ]
         },
         "esp_security": {
             "alias": "idf::esp_security",
@@ -1951,7 +1846,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
+            "include_dirs": [ "config/include", "config/include/freertos", "config/riscv/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/riscv/include", "FreeRTOS-Kernel/portable/riscv/include/freertos", "esp_additions/include" ]
         },
         "hal": {
             "alias": "idf::hal",
@@ -1963,7 +1858,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
+            "include_dirs": [ "platform_port/include", "esp32c6/include", "include" ]
         },
         "heap": {
             "alias": "idf::heap",
@@ -1999,7 +1894,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "include/esp32s3" ]
+            "include_dirs": [ "include", "include/esp32c6" ]
         },
         "ieee802154": {
             "alias": "idf::ieee802154",
@@ -2151,11 +2046,11 @@
             "prefix": "idf",
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/perfmon",
             "lib": "__idf_perfmon",
-            "reqs": [ "xtensa" ],
+            "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": []
         },
         "protobuf-c": {
             "alias": "idf::protobuf-c",
@@ -2200,7 +2095,7 @@
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/riscv",
             "lib": "__idf_riscv",
             "reqs": [],
-            "priv_reqs": [],
+            "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -2239,7 +2134,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
+            "include_dirs": [ "include", "esp32c6", "esp32c6/include", "esp32c6/register" ]
         },
         "spi_flash": {
             "alias": "idf::spi_flash",
@@ -2283,8 +2178,8 @@
             "prefix": "idf",
             "dir": "C:/Users/jorda/esp/v5.4.1/esp-idf/components/touch_element",
             "lib": "__idf_touch_element",
-            "reqs": [ "driver" ],
-            "priv_reqs": [ "esp_timer" ],
+            "reqs": [],
+            "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
@@ -2323,7 +2218,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
+            "include_dirs": []
         },
         "vfs": {
             "alias": "idf::vfs",
@@ -2383,25 +2278,25 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
+            "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
         "main": {
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/main",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/main",
             "lib": "__idf_main",
-            "reqs": [ "tUSB_DMXI", "DMXI", "esp_wifi", "WIFI_DMXI" ],
-            "priv_reqs": [ "espressif__esp_tinyusb", "espressif__led_strip", "espressif__tinyusb" ],
+            "reqs": [ "DMXI", "esp_wifi", "WIFI_DMXI" ],
+            "priv_reqs": [],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp_tinyusb", "espressif__led_strip", "espressif__tinyusb" ],
+            "managed_priv_reqs": [],
             "include_dirs": [ "." ]
         },
         "DMXI": {
             "alias": "idf::DMXI",
             "target": "___idf_DMXI",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/DMXI",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/DMXI",
             "lib": "__idf_DMXI",
             "reqs": [ "driver" ],
             "priv_reqs": [],
@@ -2413,69 +2308,21 @@
             "alias": "idf::WIFI_DMXI",
             "target": "___idf_WIFI_DMXI",
             "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/WIFI_DMXI",
+            "dir": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/components/WIFI_DMXI",
             "lib": "__idf_WIFI_DMXI",
-            "reqs": [ "esp_wifi", "esp_event", "nvs_flash", "esp_system", "esp_http_server" ],
+            "reqs": [ "esp_wifi", "esp_event", "nvs_flash", "esp_system", "esp_http_server", "DMXI" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
-        },
-        "tUSB_DMXI": {
-            "alias": "idf::tUSB_DMXI",
-            "target": "___idf_tUSB_DMXI",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/components/tUSB_DMXI",
-            "lib": "__idf_tUSB_DMXI",
-            "reqs": [ "espressif__esp_tinyusb", "espressif__tinyusb", "DMXI" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "espressif__esp_tinyusb": {
-            "alias": "idf::espressif__esp_tinyusb",
-            "target": "___idf_espressif__esp_tinyusb",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__esp_tinyusb",
-            "lib": "__idf_espressif__esp_tinyusb",
-            "reqs": [ "fatfs", "vfs", "espressif__tinyusb" ],
-            "priv_reqs": [ "usb" ],
-            "managed_reqs": [ "espressif__tinyusb" ],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "include" ]
-        },
-        "espressif__led_strip": {
-            "alias": "idf::espressif__led_strip",
-            "target": "___idf_espressif__led_strip",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__led_strip",
-            "lib": "__idf_espressif__led_strip",
-            "reqs": [ "esp_driver_rmt", "esp_driver_spi" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "include", "interface" ]
-        },
-        "espressif__tinyusb": {
-            "alias": "idf::espressif__tinyusb",
-            "target": "___idf_espressif__tinyusb",
-            "prefix": "idf",
-            "dir": "C:/tinyUSB_example/managed_components/espressif__tinyusb",
-            "lib": "__idf_espressif__tinyusb",
-            "reqs": [],
-            "priv_reqs": [ "esp_netif" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "src/", "C:/Users/jorda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/" ]
         }
     },
     "debug_prefix_map_gdbinit": "",
     "gdbinit_files": {
-        "01_symbols": "C:/tinyUSB_example/build/gdbinit/symbols",
-        "02_prefix_map": "C:/tinyUSB_example/build/gdbinit/prefix_map",
-        "03_py_extensions": "C:/tinyUSB_example/build/gdbinit/py_extensions",
-        "04_connect": "C:/tinyUSB_example/build/gdbinit/connect"
+        "01_symbols": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/gdbinit/symbols",
+        "02_prefix_map": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/gdbinit/prefix_map",
+        "03_py_extensions": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/gdbinit/py_extensions",
+        "04_connect": "C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/gdbinit/connect"
     },
-    "debug_arguments_openocd": "-f board/esp32s3-builtin.cfg"
+    "debug_arguments_openocd": "-f board/esp32c6-builtin.cfg"
 }

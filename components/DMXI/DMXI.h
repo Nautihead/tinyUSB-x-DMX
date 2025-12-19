@@ -8,10 +8,10 @@
 
 #pragma once
 
-#define readBuf 512
-#define writeBuf 512
+#define readBuf 513
+#define writeBuf 513
 
-#define DMX_UART_BUF_SIZE      512
+#define DMX_UART_BUF_SIZE      513
 #define DMX_UART_BAUD_RATE     250000
 
 
@@ -21,23 +21,24 @@
 #define DMX_UART_RX_PIN        GPIO_NUM_5  // 18
 
 
-#define BYTESTOBESENT 512
+#define BYTESTOBESENT 513
 
-#define RX_BUF_SIZE 512
+#define RX_BUF_SIZE 513
 #define USB_QUEUE_DEPTH 8
 #define DATA_QUEUE_DEPTH 4
 
-#define Jtag_RX_BUFSIZE 512
+#define Jtag_RX_BUFSIZE 515
+#define Jtag_TX_BUFSIZE 512
 
 typedef struct {
-    uint8_t buf[Jtag_RX_BUFSIZE + 1];     // Data buffer
+    uint8_t buf[Jtag_RX_BUFSIZE ];     // Data buffer
     size_t buf_len;                                     // Number of bytes received
                                            // Index of CDC device interface
 } usb_rx_message_t;                                     // USB RX message structure
 
 
 typedef struct {
-    uint8_t dBuf[Jtag_RX_BUFSIZE + 1];     // Data buffer
+    uint8_t dBuf[Jtag_TX_BUFSIZE];     // Data buffer
     size_t dBuf_len;                                     // Number of bytes received
                                       // Index of CDC device interface
 } data_cap_message_t;                                    // DMX TX message structure

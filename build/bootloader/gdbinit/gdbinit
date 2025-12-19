@@ -1,2 +1,2 @@
-source C:/tinyUSB_example/build/bootloader/gdbinit/symbols
-source C:/tinyUSB_example/build/bootloader/gdbinit/connect
+source C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/bootloader/gdbinit/symbols
+source C:/Users/jorda/Desktop/Lessen/IntraDic/jtegserial_Test/build/bootloader/gdbinit/connect

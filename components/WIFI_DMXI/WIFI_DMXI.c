@@ -7,14 +7,19 @@
 #include "esp_http_server.h"
 #include "lwip/sockets.h"
 #include "WIFI_DMXI.h"
+#include "DMXI.h"
 
 QueueHandle_t wifiGet_queue = NULL;
+uint8_t dataSend[515]; // laatste aanpassing 512 -> 515
+uint8_t STOPBYTES[3] = {0xFF, 0x00, 0x00}; // DMX stop bytes
+
 static const char *TAG = "AP_WEBSERVER";
 
 void tcp_server_task(void *pvParameters)
 {
     int listen_sock, client_sock;
     struct sockaddr_in server_addr, client_addr;
+
     socklen_t addr_len = sizeof(client_addr);
 
     listen_sock = socket(AF_INET, SOCK_STREAM, IPPROTO_IP);          //fd van socket def. (ipv4, tcp, ip protocol)
@@ -24,19 +29,33 @@ void tcp_server_task(void *pvParameters)
     server_addr.sin_port = htons(5000);                          //poort 5000
 
     bind(listen_sock, (struct sockaddr *)&server_addr, sizeof(server_addr)); // binden van socket aan poort en adres
-
     listen(listen_sock, 1);                                                //luisteren naar inkomende verbindingen op poort 5000, max 1 in wachtrij
 
     while (1) {
         client_sock = accept(listen_sock, (struct sockaddr *)&client_addr, &addr_len);
         printf("Client verbonden\n");
-        char buffer[128];
+        char buffer[515];
         int len = recv(client_sock, buffer, sizeof(buffer)-1, 0);
-        if (len > 0) {
+
+        if (len > 0) {                                                                        // komt de data binnen?
+            
+            ESP_LOG_BUFFER_HEXDUMP(TAG, buffer, sizeof(buffer)-1 , ESP_LOG_INFO);            // debugging
+            if (buffer[0] == 0x00 && buffer[1] == 0xff &&buffer[2] == 0x00 ){
+            for (int i = 0; i <= buffer[3] ; i++)                                                  // steekt alle nuttige data in de array
+            {
+                
                
-                ESP_LOG_BUFFER_HEXDUMP(TAG, buffer, sizeof(buffer)-1 , ESP_LOG_INFO);
-            buffer[len] = 0;                                        //                                <= hier buffer met ipc 
-            send(client_sock, "OK", 2, 0);
+                dataSend[i] = buffer[i+4];
+                printf("binnengekomen data %d : %d\n \r", i, dataSend[i]);
+                            // debugging
+               
+             
+
+            }}
+            dmx_Write(dataSend);                                                      // aansturing fixture
+            buffer[len] = 0;                                                 
+           // send(client_sock, "OK", 2, 0);
+            
         }
 
         close(client_sock);
@@ -54,7 +73,7 @@ static esp_err_t root_get_handler(httpd_req_t *req)
         "<html>"
         "<head><title>l</title></head>"
         "<body>"
-        "<h1> DENISA IS POOPOOO PIPI</h1>"
+        "<h1>0TEST</h1>"
         "<p> NEVER gonna gu<p>"
         "<p>fuck you</p>"
         "</body>"
@@ -100,8 +119,8 @@ void wifi_init_softap(void)
 
     wifi_config_t wifi_config = {
         .ap = {
-            .ssid = "DENISA IS A BEAN",
-            .ssid_len = strlen("DENISA IS A BEAN"),
+            .ssid = "HARDEKERN32",
+            .ssid_len = strlen("HARDEKERN32"),
             .password = "12345678",
             .max_connection = 4,
             .authmode = WIFI_AUTH_WPA_WPA2_PSK

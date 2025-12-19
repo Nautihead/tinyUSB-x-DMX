@@ -16,7 +16,6 @@ QueueHandle_t usb_queue = NULL;
 QueueHandle_t dataCap_queue = NULL;
 
 uint8_t STARTBYTES[3] = {0x00, 0xFF, 0x00} ;// DMX start bytes
-uint8_t STOPBYTES[3] = {0xFF, 0x00, 0x00}; // DMX stop bytes
 
 
 void dmx_Init(void)
@@ -30,45 +29,40 @@ void dmx_Init(void)
         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
         .source_clk = UART_SCLK_DEFAULT,
 
-        
-    
     };
 
-    
-    
-    gpio_reset_pin(DMX_UART_TX_PIN);
-    gpio_set_direction(DMX_UART_TX_PIN, GPIO_MODE_OUTPUT);
-    
-  
+   
 
-    // Install UART driver
-    uart_driver_install(DMX_UART_PORT_NUM1, DMX_UART_BUF_SIZE * 2, 513, 0, NULL, 0);
     uart_param_config(DMX_UART_PORT_NUM1, &conf);
     uart_set_pin(DMX_UART_PORT_NUM1, DMX_UART_TX_PIN, DMX_UART_RX_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+    uart_driver_install(DMX_UART_PORT_NUM1, DMX_UART_BUF_SIZE * 2, 513, 0, NULL, 0);
+     uart_set_line_inverse(DMX_UART_PORT_NUM1, UART_SIGNAL_TXD_INV);
    
 }
 
 void dmx_Write(uint8_t* data)
 
 {
+      // eerste databyte moet 0 zijn 
 
-   
+     /* Door dat de datapinnen zijn omgewisselt, moet alle data geinverteerd gezend worden. Hiervoor wordt uart_set_line() gebruikt*/
 
-    uart_set_line_inverse(UART_NUM_1, UART_SIGNAL_TXD_INV); // optioneel, voor logische inversie
-    ets_delay_us(100); // low-level timing voor DMX-break
-    uart_set_line_inverse(UART_NUM_1, 0);
-    ets_delay_us(10);
+    // Break 
+    uart_set_line_inverse(DMX_UART_PORT_NUM1, 0); // laag
+    ets_delay_us(120);
 
-
-
-
+    // Mark after break
+    uart_set_line_inverse(DMX_UART_PORT_NUM1, UART_SIGNAL_TXD_INV); // hoog
+    ets_delay_us(15);
+  //  uart_set_line_inverse(DMX_UART_PORT_NUM1, 0);                     eerste byte is 0 nul dus zou het al laag moeten staan
+  //  uart_set_line_inverse(DMX_UART_PORT_NUM1, UART_SIGNAL_TXD_INV); 
 
     // Send DMX data
-    uart_write_bytes(DMX_UART_PORT_NUM1, (const char *)data, 512);
+    uart_write_bytes(DMX_UART_PORT_NUM1, (const char *)data, 513);
 }
 
 
-void dmx_Read(void *arg) // moet nog bijgewerkt worden voor de interface
+void dmx_Read(void *arg)
 {
      usb_rx_message_t sendData;
 
@@ -115,20 +109,22 @@ void tUSB_DMXI_parser(void *arg) {
              if (msg_in.buf_len) {
             ESP_LOGI(TAG, "data ontvangen");
             ESP_LOG_BUFFER_HEXDUMP(TAG, msg_in.buf, msg_in.buf_len, ESP_LOG_INFO);
-            printf("Data : %d", msg_in.buf);
+            
 
             bool start_found = true;
           
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i <= 2; i++) {
                 if (msg_in.buf[i] != STARTBYTES[i]) {
                     start_found = false;
 
                     break;
                 }
             }
-            for (int i = 3; i <= 514; i++) {
-                msg_out.dBuf[i-2] = msg_in.buf[i];               // omdat de eerste bytes start bytes zijn
+
+          
+            for (int i = 0; i <= msg_in.buf[3]; i++) {      // msg_in.buf[3] = lengte van de data meegegeven door gebruiker
+                msg_out.dBuf[i] = msg_in.buf[i+4];               // -2 -> -3
                 ESP_LOGI(TAG, "received data byte %d", i);
             }
 
@@ -136,7 +132,7 @@ void tUSB_DMXI_parser(void *arg) {
 
             if (start_found) {
                 ESP_LOGI(TAG, "DMX start sequence detected");
-                msg_out.dBuf_len = msg_in.buf_len;
+                msg_out.dBuf_len = msg_in.buf_len ;
                
                 xQueueSend(dataCap_queue, &msg_out, 0);
                 
@@ -146,7 +142,7 @@ void tUSB_DMXI_parser(void *arg) {
                 
         }
         ESP_LOGI(TAG, "parser running");
-        vTaskDelay(500);
+        vTaskDelay(10); //dellay to prevent watchdog timer reset
     }
 }
 
@@ -164,14 +160,14 @@ void tUSB_DMXI_sender(void *arg) {
 
             ESP_LOGI(TAG, "Data sent via DMX, length: %d", msg_in.dBuf_len);
 
-            for (int i = 0; i < msg_in.dBuf_len; i++) {                 //  Debugging
+            for (int i = 0; i < msg_in.dBuf_len - 4; i++) {                 //  Debugging
                 ESP_LOGI(TAG, "Sent byte %d: %d", i, msg_in.dBuf[i]);
             }
         }
 
     
     ESP_LOGI(TAG, "sender running");
-    vTaskDelay(500);}}
+    vTaskDelay(10);}}
 
 
 
