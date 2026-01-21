@@ -54,9 +54,7 @@ static esp_err_t root_get_handler(httpd_req_t *req)
         "<html>"
         "<head><title>l</title></head>"
         "<body>"
-        "<h1> DENISA IS POOPOOO PIPI</h1>"
-        "<p> NEVER gonna gu<p>"
-        "<p>fuck you</p>"
+        
         "</body>"
         "</html>";
 
