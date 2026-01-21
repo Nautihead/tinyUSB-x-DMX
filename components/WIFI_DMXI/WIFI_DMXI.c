@@ -98,8 +98,8 @@ void wifi_init_softap(void)
 
     wifi_config_t wifi_config = {
         .ap = {
-            .ssid = "DENISA IS A BEAN",
-            .ssid_len = strlen("DENISA IS A BEAN"),
+            .ssid = "HARDEKERN32",
+            .ssid_len = strlen("HARDEKERN32"),
             .password = "12345678",
             .max_connection = 4,
             .authmode = WIFI_AUTH_WPA_WPA2_PSK
